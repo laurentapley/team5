@@ -1,0 +1,6 @@
+.individualStore {
+    display: flex;
+    flex-flow: row;
+    margin: 10px;
+    border: solid 10px $tallpoppy;
+}
