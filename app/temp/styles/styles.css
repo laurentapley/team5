@@ -371,8 +371,6 @@ menu {
   display: -ms-flexbox;
   display: flex;
   padding-top: 16px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   font-size: 18px;
   display: inline-block;
 }.submissions {
@@ -408,7 +406,9 @@ menu {
   display: -ms-flexbox;
   display: flex;
 }form {
-  background-color: black;
+  background-color: gray;
+  padding: 8px;
+
 }nav {
   background: -webkit-gradient(linear, left bottom, left top, from(#293323), color-stop(50%, #7b9969),to(#293323) );
   background: linear-gradient(0deg, #293323, #7b9969 50%,#293323 );
