@@ -1,18 +1,10 @@
 nav {
   background: linear-gradient(0deg, #293323, #7b9969 50%,#293323 );
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
+  img {
+      margin: 10px;
+  }
+}
 
-  ul {
-    width: 100%;
-    justify-content: flex-end;
-  }
-  p {
-    padding: 0;
+ul li {
     margin: 0;
-    text-align: center;
-  }
 }
