@@ -1,6 +1,31 @@
-.individualStore {
+.top-ten {
     display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(0deg, #293323, #7b9969 40%, #293323);
+    color: $highland;
+    padding: 20px;
+}
+
+.store-list {
+    display: inherit;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.store {
+    display: inherit;
     flex-flow: row;
-    margin: 10px;
-    border: solid 10px $tallpoppy;
+    background-color: rgb(22, 44, 70);
+    border: solid 1px $highland;
+    margin-top: 20px;
+    padding: 40px;
+    img {
+        outline: 1px solid $highland;
+    }
+}
+
+.storeInfo {
+    padding: 0 40px;
 }

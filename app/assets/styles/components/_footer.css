@@ -1,0 +1,19 @@
+footer {
+  background-color: $logCabin;
+  color: $highland;
+  align-self: stretch;
+  padding: 10px;
+  border-top: solid 1px $highland;
+  li {
+    font-size: 10px;
+    margin: 4px;
+    a {
+        color:inherit;
+    }
+     }
+  p {
+  padding-bottom: 8px;
+    font-size: 13px;
+    text-align: center;
+  }
+}

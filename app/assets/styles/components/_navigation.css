@@ -1,4 +1,5 @@
 nav {
+  background: linear-gradient(0deg, #293323, #7b9969 50%,#293323 );
   display: flex;
   flex-direction: row;
   justify-content: flex-start;

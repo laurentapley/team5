@@ -3,5 +3,7 @@
 @import 'base/_mixins';
 @import 'base/_global';
 @import 'base/_top-ten';
+@import 'base/_store-profile';
 @import 'components/_navigation';
+@import 'components/_footer';
 @import 'modules/_large-hero';
