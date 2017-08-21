@@ -75,3 +75,19 @@ main {
   font-weight: bold;
 
 }
+.emails {
+  padding-left: 16px;
+  padding-top: 16px;
+  align-self: center;
+}
+.title {
+  text-align: center;
+  font-size: 25px;
+  color: #E34515;
+  font-weight: bold;
+
+}
+.submits {
+  padding-top: 16px;
+  align-self: center;
+}
