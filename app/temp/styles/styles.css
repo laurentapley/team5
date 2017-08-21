@@ -317,7 +317,26 @@ menu {
     padding-bottom: 8px;
       font-size: 13px;
       text-align: center;
-    }.individualStore {
+    }.checkboxes {
+  padding-left: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 16px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 18px;
+  display: inline-block;
+}.submissions {
+  padding-top: 16px;
+
+}.options {
+  padding: 8px;
+  color: #E34515;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}.individualStore {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

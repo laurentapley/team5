@@ -55,3 +55,23 @@ main {
       text-align: center;
     }
   }
+
+.checkboxes {
+  padding-left: 16px;
+  display: flex;
+  padding-top: 16px;
+  justify-content: space-around;
+  font-size: 18px;
+  display: inline-block;
+}
+.submissions {
+  padding-top: 16px;
+
+}
+.options {
+  padding: 8px;
+  color: #E34515;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
