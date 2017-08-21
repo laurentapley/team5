@@ -289,45 +289,9 @@ menu {
       color: black;
       text-decoration: none;
     }main {
-      
     -webkit-box-flex: 1;
         -ms-flex: 1 0 auto;
             flex: 1 0 auto;
-}.checkboxes {
-  padding-left: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 16px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  font-size: 18px;
-  display: inline-block;
-}.submissions {
-  padding-top: 16px;
-
-}.options {
-  padding: 8px;
-  color: #E34515;
-  font-family: sans-serif;
-  font-weight: bold;
-
-}.emails {
-  padding-left: 16px;
-  padding-top: 16px;
-  -ms-flex-item-align: center;
-      align-self: center;
-}.title {
-  text-align: center;
-  font-size: 25px;
-  color: #E34515;
-  font-weight: bold;
-
-}.submits {
-  padding-top: 16px;
-  -ms-flex-item-align: center;
-      align-self: center;
-
 }h1, h2 {
     font-family: 'Nosifer', cursive;
     color: #c13b25
