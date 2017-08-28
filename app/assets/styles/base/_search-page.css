@@ -1,13 +1,18 @@
 form {
-  background-color: $tallpoppy;
-  max-width: 80%;
+  background-color: white;
+  max-width: 90%;
 
 }
 .container {
   padding-top: 2%;
 
 }
-.map {
-    float: right;
-    padding-left: 5%;
+.para1 {
+  max-width: 75%;
+  padding-left: 40%;
+  padding-top: 6%;
+}
+
+.store-pics {
+  float: right;
 }
