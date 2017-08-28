@@ -1,0 +1,13 @@
+form {
+  background-color: $tallpoppy;
+  max-width: 80%;
+
+}
+.container {
+  padding-top: 2%;
+
+}
+.map {
+    float: right;
+    padding-left: 5%;
+}
