@@ -1,51 +1,60 @@
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]) {
+  border: 1px solid blue;
+}
+
 .add-store {
-  background-color: white;
-  min-height: 80vh;
-}
-.checkboxes {
-  padding-left: 16px;
-  display: flex;
-  padding-top: 16px;
-  font-size: 18px;
-  display: inline-block;
-}
-.submissions {
-  padding-top: 16px;
+  /*background-color: white;
+  min-height: 80vh;*/
+
+  &__store-name-input {
+  }
+
+  /*&__checkboxes {
+    padding-left: 16px;
+    display: flex;
+    padding-top: 16px;
+    font-size: 18px;
+    display: inline-block;
+  }*/
+  /*&__submissions {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+  }
+  &__options {
+    padding: 8px;
+    color: #E34515;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  &__emails {
+    padding-left: 16px;
+    padding-top: 16px;
+    align-self: center;
+  }
+  &__title {
+    text-align: center;
+    font-size: 25px;
+    color: #E34515;
+    font-weight: bold;
+
+  }
+  &__submits {
+    padding-top: 16px;
+    align-self: center;
+  }
+  &__boxes {
+    padding-left: 8px;
+  }*/
 
 }
-.options {
-  padding: 8px;
-  color: #E34515;
-  font-family: sans-serif;
-  font-weight: bold;
 
-
-}
-.emails {
-  padding-left: 16px;
-  padding-top: 16px;
-  align-self: center;
-}
-.title {
-  text-align: center;
-  font-size: 25px;
-  color: #E34515;
-  font-weight: bold;
-
-}
-.submits {
-  padding-top: 16px;
-  align-self: center;
-}
-.boxes {
-  padding-left: 8px;
-}
-p {
+/*p {
   padding-left: 16px;
   display: flex;
 }
 form {
-  background-color: gray;
+  background-color: inherit;
   padding: 8px;
 
-}
+}*/
