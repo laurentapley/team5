@@ -409,12 +409,7 @@ menu {
   }/*p {
   padding-left: 16px;
   display: flex;
-}
-form {
-  background-color: inherit;
-  padding: 8px;
 
-}*/nav {
   background: -webkit-gradient(linear, left bottom, left top, from(#293323), color-stop(50%, #7b9969),to(#293323) );
   background: linear-gradient(0deg, #293323, #7b9969 50%,#293323 );
 }nav img {
