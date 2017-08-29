@@ -5,7 +5,7 @@
 @import 'base/_top-ten';
 @import 'base/_store-profile';
 @import 'base/_add-store';
-@import 'base/_search-page';
+@import 'base/_login';
 @import 'components/_navigation';
 @import 'components/_footer';
 @import 'modules/_large-hero';

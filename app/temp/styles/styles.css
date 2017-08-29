@@ -362,64 +362,53 @@ menu {
          align-items: center;
  padding: 20px;
 
+}input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]) {
+  border: 1px solid blue;
 }.add-store {
-  background-color: white;
-  min-height: 80vh;
-}.checkboxes {
+
+  /*&__checkboxes {
+    padding-left: 16px;
+    display: flex;
+    padding-top: 16px;
+    font-size: 18px;
+    display: inline-block;
+  }*/
+  /*&__submissions {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+  }
+  &__options {
+    padding: 8px;
+    color: #E34515;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  &__emails {
+    padding-left: 16px;
+    padding-top: 16px;
+    align-self: center;
+  }
+  &__title {
+    text-align: center;
+    font-size: 25px;
+    color: #E34515;
+    font-weight: bold;
+
+  }
+  &__submits {
+    padding-top: 16px;
+    align-self: center;
+  }
+  &__boxes {
+    padding-left: 8px;
+  }*/
+
+}/*background-color: white;
+  min-height: 80vh;*/.add-store__store-name-input {
+  }/*p {
   padding-left: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  padding-top: 16px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  font-size: 18px;
-  display: inline-block;
-}.submissions {
-  padding-top: 16px;
-
-}.options {
-  padding: 8px;
-  color: #E34515;
-  font-family: sans-serif;
-  font-weight: bold;
-
-
-}.emails {
-  padding-left: 16px;
-  padding-top: 16px;
-  -ms-flex-item-align: center;
-      align-self: center;
-}.title {
-  text-align: center;
-  font-size: 25px;
-  color: #E34515;
-  font-weight: bold;
-
-}.submits {
-  padding-top: 16px;
-  -ms-flex-item-align: center;
-      align-self: center;
-}.boxes {
-  padding-left: 8px;
-}p {
-  padding-left: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}form {
-  background-color: black;
-}form {
-  background-color: #c13b25;
-  max-width: 80%;
-
-}.container {
-  padding-top: 2%;
-
-}.map {
-    float: right;
-    padding-left: 5%;
-}nav {
   background: -webkit-gradient(linear, left bottom, left top, from(#293323), color-stop(50%, #7b9969),to(#293323) );
   background: linear-gradient(0deg, #293323, #7b9969 50%,#293323 );
 }nav img {
