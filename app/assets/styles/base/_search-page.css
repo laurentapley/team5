@@ -1,18 +1,11 @@
-form {
-  background-color: white;
-  max-width: 90%;
 
-}
 .container {
-  padding-top: 2%;
-
+  padding-top: 10%;
 }
-.para1 {
-  max-width: 75%;
-  padding-left: 40%;
-  padding-top: 6%;
+.map {
+  display: flex;
+  flex-direction: row;
 }
-
-.store-pics {
-  float: right;
+a:hover {
+  background-color: rgb(250, 149, 131);
 }
