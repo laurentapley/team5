@@ -15,10 +15,9 @@
 }
 
 .store {
-    display: inherit;
+    display: flex;
     flex-flow: row;
-    background-color: rgb(22, 44, 70);
-    border: solid 1px $highland;
+    align-items: center;
     margin-top: 20px;
     padding: 40px;
     img {

@@ -322,13 +322,16 @@ menu {
     -ms-flex-pack: distribute;
         justify-content: space-around;
 }.store {
-    display: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-flow: row;
             flex-flow: row;
-    background-color: rgb(22, 44, 70);
-    border: solid 1px #7b9969;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 20px;
     padding: 40px;
 }.store img {
