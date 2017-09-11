@@ -1,9 +1,9 @@
-.top-ten {
+main {
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
-    background: linear-gradient(0deg, #293323, #7b9969 40%, #293323);
+    background-color: #fff;
     color: $highland;
     padding: 20px;
 }
