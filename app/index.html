@@ -6,55 +6,142 @@
   <title>The Retail Apocalypse</title>
   <meta name="keywords" content="stores, store closing, bankruptcy">
   <meta name="description" content="A site showcasing all the retail stores closed in the United States">
-  <link rel="stylesheet" href="temp/styles/styles.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  <!-- build:css assets/styles/styles.css -->
+<link rel="stylesheet" href="temp/styles/styles.css"/>
+<!-- endbuild -->
 </head>
 <body>
-<div class="container">
-  <nav>
-      <a href="#" class="logo">
-        <img src="assets/images/icons/TRA_logo.svg" alt="" width="200px">
-      </a>
-    <ul>
-      <li>
-        <a href="#">
-          <img src="assets/images/icons/tag.svg" alt="hash tag" width="50px">
-          <p>Tags</p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="assets/images/icons/store.svg" alt="store" width="50px">
-          <p>Store</p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="assets/images/icons/plus.svg" alt="add" width="50px">
-          <p>Add</p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="assets/images/icons/map.svg" alt="map" width="50px">
-          <p>Map</p>
-        </a>
-    </ul>
-  </nav>
-  <main></main>
-  <footer>
-    <div>
-      <ul>
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Tags</a></li>
-        <li><a href="#">Store List</a></li>
-        <li><a href="#">Map</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Add page</a></li>
-      </ul>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="/" class="brand-logo"><img src="assets/images/icons/TRA_logo.png" alt="" width="100px"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">&#9776</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="tags.html"><img src="assets/images/icons/tag.svg" alt="hash tag" width=""></a></li>
+                <li><a href="store-list.html"><img src="assets/images/icons/store.svg" alt="store" width="50px"></a></li>
+                <li><a href="add-store.html"><img src="assets/images/icons/plus.svg" alt="add" width="50px"></a></li>
+                <li><a href="login.html">Login</a></li>
+                <span>|</span>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="tags.html"><img src="assets/images/icons/tag.svg" alt="hash tag" width="50px"></a></li>
+                <li><a href="store-list.html"><img src="assets/images/icons/store.svg" alt="store" width="50px"></a></li>
+                <li><a href="add-store.html"><img src="assets/images/icons/plus.svg" alt="add" width="50px"></a></li>
+            </ul>
+        </div>
+    </nav>
+      <main class="top-ten">
+          <h1>Top 10 Stores</h1>
+          <div class="store-list">
+              <div class="store">
+                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
+                  <div class="storeInfo">
+                      <h2>Store Name</h2>
+                      <p>Ranking</p>
+                      <p>Reviews</p>
+                      <p>Average Rating</p>
+                  </div>
+              </div>
+              <div class="store">
+                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
+                  <div class="storeInfo">
+                      <h2>Store Name</h2>
+                      <p>Ranking</p>
+                      <p>Reviews</p>
+                      <p>Average Rating</p>
+                  </div>
+              </div>
+              <div class="store">
+                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
+                  <div class="storeInfo">
+                      <h2>Store Name</h2>
+                      <p>Ranking</p>
+                      <p>Reviews</p>
+                      <p>Average Rating</p>
+                  </div>
+              </div>
+              <div class="store">
+                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
+                  <div class="storeInfo">
+                      <h2>Store Name</h2>
+                      <p>Ranking</p>
+                      <p>Reviews</p>
+                      <p>Average Rating</p>
+                  </div>
+              </div>
+              <div class="store">
+                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
+                  <div class="storeInfo">
+                      <h2>Store Name</h2>
+                      <p>Ranking</p>
+                      <p>Reviews</p>
+                      <p>Average Rating</p>
+                  </div>
+              </div>
+              <div class="store">
+                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
+                  <div class="storeInfo">
+                      <h2>Store Name</h2>
+                      <p>Ranking</p>
+                      <p>Reviews</p>
+                      <p>Average Rating</p>
+                  </div>
+              </div>
+              <div class="store">
+                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
+                  <div class="storeInfo">
+                      <h2>Store Name</h2>
+                      <p>Ranking</p>
+                      <p>Reviews</p>
+                      <p>Average Rating</p>
+                  </div>
+              </div>
+              <div class="store">
+                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
+                  <div class="storeInfo">
+                      <h2>Store Name</h2>
+                      <p>Ranking</p>
+                      <p>Reviews</p>
+                      <p>Average Rating</p>
+                  </div>
+              </div>
+              <div class="store">
+                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
+                  <div class="storeInfo">
+                      <h2>Store Name</h2>
+                      <p>Ranking</p>
+                      <p>Reviews</p>
+                      <p>Average Rating</p>
+                  </div>
+              </div>
+              <div class="store">
+                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
+                  <div class="storeInfo">
+                      <h2>Store Name</h2>
+                      <p>Ranking</p>
+                      <p>Reviews</p>
+                      <p>Average Rating</p>
+                  </div>
+              </div>
 
-      <p> All rights reserved &copy; The Retail Apocalypse </p>
-
-    </div>
-  </footer>
-</body>
+          </div>
+      </main>
+      <footer>
+        <div>
+          <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Tags</a></li>
+            <li><a href="#">Store List</a></li>
+            <li><a href="#">Map</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Add page</a></li>
+          </ul>
+          <p> All rights reserved &copy; The Retail Apocalypse </p>
+        </div>
+      </footer>
+ </body>
 </html>
