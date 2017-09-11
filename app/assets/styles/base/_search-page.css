@@ -5,6 +5,14 @@
   display: flex;
   flex-direction: row;
 }
+
+.map-hover {
+  padding: 7px;
+}
 .map-hover:hover {
-  color: $tallPoppy;
+  background-color: $tallpoppy;
+}
+.btn-id {
+  display: flex;
+  flex-direction: row;
 }
