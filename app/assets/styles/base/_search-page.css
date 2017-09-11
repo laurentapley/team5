@@ -6,6 +6,6 @@
   display: flex;
   flex-direction: row;
 }
-a:hover {
-  background-color: rgb(250, 149, 131);
+.map-hover:hover {
+  color: $tallPoppy;
 }
