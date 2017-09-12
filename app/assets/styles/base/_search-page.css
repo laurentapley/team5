@@ -5,5 +5,14 @@
   display: flex;
   flex-direction: row;
 }
-a:hover {
-  background-color: rgb(250, 149, 131);
+
+.map-hover {
+  padding: 7px;
+}
+.map-hover:hover {
+  background-color: $tallpoppy;
+}
+.btn-id {
+  display: flex;
+  flex-direction: row;
+}
