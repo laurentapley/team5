@@ -6,6 +6,7 @@
 @import 'base/_store-profile';
 @import 'base/_add-store';
 @import 'base/_search-page';
+@import 'base/_register';
 @import 'base/_login';
 @import 'components/_navigation';
 @import 'components/_footer';

@@ -311,9 +311,7 @@ menu {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+
     background-color: #fff;
     color: #7b9969;
     padding: 20px;
@@ -420,7 +418,45 @@ menu {
 form {
   background-color: inherit;
   padding: 8px;
+}*/
+.store-profile {
+	width: 850px;
+	margin: auto;
 
+	height: 100%;
+	width: 100%;
+}
+form {
+  background-color: #f1f1f1;
+  padding:2rem;
+
+}
+.bottom-login {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 8px;
+}
+.store-profile {
+	width: 850px;
+	margin: auto;
+
+	height: 100%;
+	width: 100%;
+}
+form {
+  background-color: #f1f1f1;
+  padding:2rem;
+
+}
+.bottom-login {
 }*/.container {
   padding-top: 10%;
 }.map {
@@ -447,6 +483,7 @@ form {
   background-color: #f1f1f1;
   padding:2rem;
 }.bottom-login {
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -457,7 +494,10 @@ form {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    padding-top: 8px;
+}
 }nav {
+
     background-color: none;
   background: -webkit-gradient(linear, left bottom, left top, from(#293323), color-stop(50%, #7b9969),to(#293323) );
   background: linear-gradient(0deg, #293323, #7b9969 50%,#293323 );
