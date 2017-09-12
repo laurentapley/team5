@@ -431,8 +431,18 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-}a:hover {
-  background-color: rgb(250, 149, 131);
+}.map-hover {
+  padding: 7px;
+}.map-hover:hover {
+  background-color: #c13b25;
+}.btn-id {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }form {
   background-color: #f1f1f1;
   padding:2rem;
