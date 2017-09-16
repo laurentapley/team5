@@ -1,12 +1,12 @@
 .page-footer {
-    background-color: $logCabin;
-    color: $highland;
-
-    div {
-        color: $highland;
+    background-color: $highland;
+    color: $logCabin;
+    font-size: .9rem;
+    p {
+        text-align: center;
     }
-    a {
-        color: $highland;
-    }
+}
 
+.footer-copyright {
+    font-size: .8rem;
 }

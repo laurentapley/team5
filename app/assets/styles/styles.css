@@ -10,5 +10,6 @@
 @import 'base/_login';
 @import 'components/_navigation';
 @import 'components/_footer';
+@import 'components/_pagination';
 @import 'modules/_large-hero';
 @import 'base/_forgot-password';

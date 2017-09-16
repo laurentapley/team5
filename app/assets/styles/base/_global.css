@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Trebuchet', sans-serif;
   font-weight: thin;
   text-transform: uppercase;
   display: flex;
@@ -15,7 +15,8 @@ body {
 }
 
 .container {
-    padding-top: 0;
+    padding: 20px 0;
+    width: 90%;
 }
 
 img {
@@ -43,6 +44,7 @@ h1 {
     font-family: Nosifer, sans-serif;
     font-size: 3rem;
     text-align: center;
+    margin: 5rem;
 }
 
 h2 {
@@ -50,4 +52,14 @@ h2 {
     font-size: 2rem;
     font-weight: bold;
     color: $tallpoppy
+}
+
+.dead-stores-img {
+    width: 100%;
+    text-align: center;
+    img {
+        margin-bottom: -2.2rem;
+        position: relative;
+        z-index: 1;
+    }
 }

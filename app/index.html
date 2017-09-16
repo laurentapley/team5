@@ -8,6 +8,7 @@
   <meta name="description" content="A site showcasing all the retail stores closed in the United States">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- build:css assets/styles/styles.css -->
   <link rel="stylesheet" href="temp/styles/styles.css"/>
   <!-- endbuild -->
@@ -18,9 +19,9 @@
             <a href="/" class="brand-logo"><img src="assets/images/icons/TRA_logo.png" alt="" width="150px"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="tags.html"><img src="assets/images/icons/tag.svg" alt="hash tag" width="40px"><span>Tags</span></a></li>
                 <li><a href="store-list.html"><img src="assets/images/icons/store.svg" alt="store" width=40px"">Stores</a></li>
                 <li><a href="add-store.html"><img src="assets/images/icons/plus.svg" alt="add" width="40px">Add Store</a></li>
+                <li><a href="search.html"><img src="assets/images/icons/plus.svg" alt="add" width="40px">Search</a></li>
                 <div class="login-register">
                     <li><a href="login.html">Login</a></li>
                     <li><span>|</span></li>
@@ -34,115 +35,107 @@
             </ul>
         </div>
     </nav>
-      <main class="top-ten">
-          <h1>Top 10 Stores</h1>
-          <div class="store-list">
-              <div class="store">
-                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
-                  <div class="storeInfo">
-                      <h2>Store Name</h2>
-                      <p>Ranking</p>
-                      <p>Reviews</p>
-                      <p>Average Rating</p>
-                  </div>
-              </div>
-              <div class="store">
-                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
-                  <div class="storeInfo">
-                      <h2>Store Name</h2>
-                      <p>Ranking</p>
-                      <p>Reviews</p>
-                      <p>Average Rating</p>
-                  </div>
-              </div>
-              <div class="store">
-                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
-                  <div class="storeInfo">
-                      <h2>Store Name</h2>
-                      <p>Ranking</p>
-                      <p>Reviews</p>
-                      <p>Average Rating</p>
-                  </div>
-              </div>
-              <div class="store">
-                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
-                  <div class="storeInfo">
-                      <h2>Store Name</h2>
-                      <p>Ranking</p>
-                      <p>Reviews</p>
-                      <p>Average Rating</p>
-                  </div>
-              </div>
-              <div class="store">
-                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
-                  <div class="storeInfo">
-                      <h2>Store Name</h2>
-                      <p>Ranking</p>
-                      <p>Reviews</p>
-                      <p>Average Rating</p>
-                  </div>
-              </div>
-              <div class="store">
-                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
-                  <div class="storeInfo">
-                      <h2>Store Name</h2>
-                      <p>Ranking</p>
-                      <p>Reviews</p>
-                      <p>Average Rating</p>
-                  </div>
-              </div>
-              <div class="store">
-                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
-                  <div class="storeInfo">
-                      <h2>Store Name</h2>
-                      <p>Ranking</p>
-                      <p>Reviews</p>
-                      <p>Average Rating</p>
-                  </div>
-              </div>
-              <div class="store">
-                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
-                  <div class="storeInfo">
-                      <h2>Store Name</h2>
-                      <p>Ranking</p>
-                      <p>Reviews</p>
-                      <p>Average Rating</p>
-                  </div>
-              </div>
-              <div class="store">
-                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
-                  <div class="storeInfo">
-                      <h2>Store Name</h2>
-                      <p>Ranking</p>
-                      <p>Reviews</p>
-                      <p>Average Rating</p>
-                  </div>
-              </div>
-              <div class="store">
-                  <img src="assets/images/kmart-mble.jpg" alt="" width="400px">
-                  <div class="storeInfo">
-                      <h2>Store Name</h2>
-                      <p>Ranking</p>
-                      <p>Reviews</p>
-                      <p>Average Rating</p>
-                  </div>
-              </div>
-
-          </div>
-      </main>
-      <footer>
-        <div>
-          <ul>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Tags</a></li>
-            <li><a href="#">Store List</a></li>
-            <li><a href="#">Map</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Add page</a></li>
-          </ul>
-          <p> All rights reserved &copy; The Retail Apocalypse </p>
+    <div class="container">
+        <h1>Top Ten Stores</h1>
+        <div class="dead-stores-img">
+            <img src="assets/images/stores-closing-bg.svg" width="1200px" alt="">
         </div>
-      </footer>
+        <table>
+        <thead>
+          <tr>
+              <th>Store Name</th>
+              <th>Ranking</th>
+              <th>Reviews</th>
+              <th>Average Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Sears</td>
+            <td>1</td>
+            <td>1.5k</td>
+            <td>3.9</td>
+        </tr>
+          <tr>
+            <td>Kmart</td>
+            <td>2</td>
+            <td>1.2k</td>
+            <td>3.8</td>
+          </tr>
+          <tr>
+              <td>JCpenney</td>
+              <td>3</td>
+              <td>1.2k</td>
+              <td>3.7</td>
+          </tr>
+          <tr>
+            <td>Gymboree</td>
+            <td>4</td>
+            <td>1.2k</td>
+            <td>3.6</td>
+          </tr>
+          <tr>
+              <td>Radioshack</td>
+              <td>5</td>
+              <td>3.2k</td>
+              <td>3.5</td>
+          </tr>
+          <tr>
+              <td>Perfumia</td>
+              <td>6</td>
+              <td>1k</td>
+              <td>3.4</td>
+          </tr>
+          <tr>
+              <td>Dillards</td>
+              <td>7</td>
+              <td>1.7k</td>
+              <td>2.7</td>
+          </tr>
+          <tr>
+              <td>Bullocks</td>
+              <td>8</td>
+              <td>1.1k</td>
+              <td>2.5</td>
+          </tr>
+          <tr>
+              <td>Mervyns</td>
+              <td>9</td>
+              <td>900k</td>
+              <td>2.3</td>
+          </tr>
+          <tr>
+              <td>Luckys</td>
+              <td>10</td>
+              <td>500k</td>
+              <td>2.1</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class="page-footer">
+     <div class="container">
+       <div class="row">
+         <div class="col s12">
+           <h5>Links</h5>
+           <ul>
+             <li><a href="search.html">Search</a></li>
+             <li><a href="tags.html">Tags</a></li>
+             <li><a href="store-list.html">store-list</a></li>
+             <li><a href="top-ten.html">Top Ten Stores</a></li>
+             <li><a href="add-store.html">Add A Store</a></li>
+             <li><a href="location.html">Locations</a></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+     <div class="footer-copyright">
+       <div class="container">
+          <p>The Retail Apocalypse © 2017 All rights reserved.</p>
+       </div>
+     </div>
+   </footer>
+
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
   <script src="temp/scripts/main.js"></script>

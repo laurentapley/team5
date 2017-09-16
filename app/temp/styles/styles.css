@@ -6717,7 +6717,7 @@ menu {
   padding: 0;
   margin:0;
 }body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Trebuchet', sans-serif;
   font-weight: thin;
   text-transform: uppercase;
   display: -webkit-box;
@@ -6729,7 +6729,8 @@ menu {
           flex-direction: column;
   min-height: 100vh;
 }.container {
-    padding-top: 0;
+    padding: 20px 0;
+    width: 90%;
 }img {
   max-width: 100%;
   height: auto;
@@ -6751,52 +6752,26 @@ menu {
     font-family: Nosifer, sans-serif;
     font-size: 3rem;
     text-align: center;
+    margin: 5rem;
 }h2 {
     color: #293323;
     font-size: 2rem;
     font-weight: bold;
     color: #c13b25
-}main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-
-    background-color: #fff;
-    color: #7b9969;
-    padding: 20px;
-}.store-list {
-    display: inherit;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-}.store {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row;
-            flex-flow: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 20px;
-    padding: 40px;
-}.store img {
-        outline: 1px solid #7b9969;
-    }.storeInfo {
-    padding: 0 40px;
-}main.store-profile {
+}.dead-stores-img {
+    width: 100%;
+    text-align: center;
+}.dead-stores-img img {
+        margin-bottom: -2.2rem;
+        position: relative;
+        z-index: 1;
+    }.card span {
+        font-family: Nosifer, sans-serif;
+        color: #c13b25;
+    }.card .card-image {
+        height: 200px;
+        overflow:hidden;
+    }main.store-profile {
     color: #7b9969;
     -ms-flex-pack: distribute;
         justify-content: space-around;
@@ -6912,13 +6887,19 @@ menu {
         line-height: 30px;
         padding: 25px 10px;
     }.page-footer {
-    background-color: #293323;
-    color: #7b9969;
-
-}.page-footer div {
-        color: #7b9969;
-    }.page-footer a {
-        color: #7b9969;
+    background-color: #7b9969;
+    color: #293323;
+    font-size: .9rem;
+}.page-footer p {
+        text-align: center;
+    }.footer-copyright {
+    font-size: .8rem;
+}.pagination li.active {
+        background-color: #c13b25;
+    }.pagination li {
+        margin: 1px;
+    }.pagination li a {
+        font-size: .8rem;
     }.large-hero {
   position: relative;
 }.large-hero__text-content {
@@ -6929,7 +6910,7 @@ menu {
   text-align: center;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-}.row .col.s12 {
+}.form {
     width: 100%;
     margin-left: auto;
     left: auto;

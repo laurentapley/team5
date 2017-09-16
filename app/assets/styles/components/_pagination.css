@@ -1,0 +1,11 @@
+.pagination {
+    li.active {
+        background-color: $tallpoppy;
+    }
+    li {
+        margin: 1px;
+    }
+    li a {
+        font-size: .8rem;
+    }
+}
