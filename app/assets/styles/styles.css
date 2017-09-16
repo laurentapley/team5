@@ -1,10 +1,10 @@
+@import 'vendor/_materialize';
 @import 'base/_variables';
 @import 'normalize.css';
 @import 'base/_mixins';
 @import 'base/_global';
 @import 'base/_top-ten';
 @import 'base/_store-profile';
-@import 'base/_add-store';
 @import 'base/_search-page';
 @import 'base/_register';
 @import 'base/_login';

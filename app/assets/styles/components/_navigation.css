@@ -1,11 +1,25 @@
 nav {
-    background-color: none;
-  background: linear-gradient(0deg, #293323, #7b9969 50%,#293323 );
+  background-color: $highland;
+  /*background: linear-gradient(0deg, #293323, #7b9969 50%,#293323 );*/
+  height: 80px;
   img {
       margin: 10px;
+  }
+  a {
+      height: 80px;
   }
 }
 
 ul li {
     margin: 0;
+}
+
+nav a.button-collapse i{
+    font-family: Nosifer, sans-serif;
+    line-height: 84px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    font-size: 18px;
+    color: $reef;
 }
