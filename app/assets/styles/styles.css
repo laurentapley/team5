@@ -11,5 +11,6 @@
 @import 'components/_navigation';
 @import 'components/_footer';
 @import 'components/_pagination';
+@import 'components/_form';
 @import 'modules/_large-hero';
 @import 'base/_forgot-password';

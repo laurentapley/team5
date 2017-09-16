@@ -1,13 +1,9 @@
-.store-profile {
-	width: 850px;
-	margin: auto;
-	height: 100%;
-	width: 100%;
+.lowercase {
+    text-transform: none;
 }
 
-.bottom-login {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 8px;
+.valign-wrapper {
+    .btn {
+        margin: 5px;
+    }
 }
