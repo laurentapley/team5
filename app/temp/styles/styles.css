@@ -6880,20 +6880,38 @@ menu {
 }nav {
   background-color: #7b9969;
   /*background: linear-gradient(0deg, #293323, #7b9969 50%,#293323 );*/
-  height: 80px;
-}nav img {
-      margin: 10px;
-  }nav a {
-      height: 80px;
-  }ul li {
-    margin: 0;
-}nav a.button-collapse i{
+  height: 87px;
+}nav ul li {
+      margin: 0;
+  }nav ul li a {
+          height: 87px;
+          line-height: 30px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          padding: 15px 30px;
+      }nav a.button-collapse i{
     font-family: Nosifer, sans-serif;
     line-height: 84px;
 }nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
     font-size: 18px;
     color: #cdffb0;
-}.page-footer {
+}.brand-logo {
+    margin: 15px;
+}.login-register {
+    line-height: 80px;
+    display: inline-block;
+}.login-register a {
+        line-height: 30px;
+        padding: 25px 10px;
+    }.page-footer {
     background-color: #293323;
     color: #7b9969;
 
