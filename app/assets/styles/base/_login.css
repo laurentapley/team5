@@ -1,5 +1,6 @@
 .lowercase {
     text-transform: none;
+    color: $logCabin;
 }
 
 .valign-wrapper {

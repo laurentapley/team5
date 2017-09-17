@@ -67,3 +67,7 @@ h2 {
 .btn {
     background-color: $tallpoppy;
 }
+
+p {
+    margin:0;
+}

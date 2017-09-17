@@ -6767,6 +6767,8 @@ menu {
         z-index: 1;
     }.btn {
     background-color: #c13b25;
+}p {
+    margin:0;
 }.card span {
         font-family: Nosifer, sans-serif;
         color: #c13b25;
@@ -6808,8 +6810,11 @@ menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-}.map-hover {
+}.map form .input[type=text]:not(.browser-default) {
+          margin: 0;
+      }.map-hover {
   padding: 7px;
+  margin: 0 10px;
 }.map-hover:hover {
   background-color: #c13b25;
 }.btn-id {
@@ -6820,8 +6825,11 @@ menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}.search-input {
+    width: 100%;
 }.lowercase {
     text-transform: none;
+    color: #293323;
 }.valign-wrapper .btn {
         margin: 5px;
     }nav {
@@ -6878,20 +6886,9 @@ menu {
   margin: 5rem auto;
 }form.slim {
     max-width: 800px;
-}.large-hero {
-  position: relative;
-}.large-hero__text-content {
-  position: absolute;
-  top: 50%;
-  left: 0;
-
-  text-align: center;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}.form {
-    width: 100%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
-    background-color: #f1f1f1;
+}.check-boxes {
+    margin: 10px 0;
+}fieldset {
+    margin: 30px 0;
+    border: none;
 }
