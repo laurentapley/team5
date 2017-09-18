@@ -6800,6 +6800,8 @@ menu {
           flex-direction: row;
 }.search-input {
     width: 100%;
+}.g_map {
+  text-align: center;
 }.lowercase {
     text-transform: none;
     color: #293323;
